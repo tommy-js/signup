@@ -4,7 +4,7 @@ import StockPage from "./examples/StockPage.tsx";
 import StockChart from "./examples/StockChart.tsx";
 import Community from "./examples/Community.tsx";
 import InputEmail from "./functions/InputEmail.tsx";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
