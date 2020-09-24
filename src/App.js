@@ -3,6 +3,7 @@ import MultipleChoice from "./examples/MultipleChoice.tsx";
 import StockPage from "./examples/StockPage.tsx";
 import StockChart from "./examples/StockChart.tsx";
 import Community from "./examples/Community.tsx";
+import InputEmail from "./functions/InputEmail.tsx";
 import "./App.css";
 
 function App() {
@@ -59,6 +60,11 @@ function App() {
         community, which help motivate your decisions.
       </h3>
       <Community />
+      <h3>
+        Of course, that's just the tip of the iceberg. Join our mailing list to
+        learn more about the app as we go.
+      </h3>
+      <InputEmail />
     </div>
   );
 }
